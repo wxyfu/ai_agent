@@ -1,6 +1,6 @@
 # Prepare the OCI ununtu env.
 1. Install Docker (Minimal)
-bash
+'
 # Install Docker (convenience script for minimal setup)
 curl -fsSL https://get.docker.com | sudo sh
 
@@ -12,4 +12,5 @@ newgrp docker
 
 # Verify installation
 docker --version
+'
 
